@@ -24,18 +24,18 @@ All data is stored in memory and is lost when the application closes.
 ## Project structure
 
 ```text
-.vscode/settings.json       VS Code Java project settings
-src/
-  Main.java                 Swing interface and application entry point
-  Truck.java                Abstract truck class
-  FlatbedTruck.java          Flatbed truck implementation
-  CarCarrier.java            Car carrier implementation
-  TruckYard.java             Truck collection and yard operations
-  TruckYardException.java    Custom yard exception
-lib/                        Optional local libraries (currently empty)
-bin/                        Generated class files (ignored by Git)
-.gitignore
-README.md
+truck-dealership-oop/
+├── .vscode/
+│   └── settings.json
+├── src/
+│   ├── Main.java
+│   ├── Truck.java
+│   ├── FlatbedTruck.java
+│   ├── CarCarrier.java
+│   ├── TruckYard.java
+│   └── TruckYardException.java
+├── .gitignore
+└── README.md
 ```
 
 The empty `lib/` directory is not tracked by Git. No external dependencies or build tools are required.
