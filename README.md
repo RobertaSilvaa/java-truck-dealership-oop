@@ -1,4 +1,4 @@
-# truck-dealership-oop
+# java-truck-dealership-oop
 
 A Java Swing application for managing a truck dealership, developed as an extra assignment for an Object-Oriented Programming course.
 
